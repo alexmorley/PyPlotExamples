@@ -1,0 +1,10 @@
+' quotes to " quotes
+ax.* to ax[:*]
+np.array([]) to []
+True => true
+False => false
+Dictionaries = to =>
+Dictionaries variable names to symbols
+**kw to ; kw... to splat keyword dicts
+    :%s/, \*\*kwargs/; kwargs.../gc 
+Dictionaries .update to push!(dict, (things)
